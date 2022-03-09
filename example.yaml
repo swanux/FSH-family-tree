@@ -1,0 +1,209 @@
+families:
+  - parents: [9, 14]
+    children: [25, 37]
+  - parents: [25, 1]
+    children: [32]
+  - parents: [12, 14]
+    children: [18]
+  - parents: [18, 20]
+    children: [24, 29, 34, 26]
+  - parents: [18, 9]
+    children: [40]
+  - parents: [37, 24]
+    children: [39]
+  - parents: [-1, -2]
+    children: [5, 12, 9, 14, 4, 13, 6, 11, 2, 7, 3, 8, 10, 31, 36, 1]
+  - parents: [5, 1]
+    children: [17, 15, 28]
+  - parents: [9, 6]
+    children: [19]
+  - parents: [9, 2]
+    children: [21]
+  - parents: [9, 4]
+    children: [23, 30, 35]
+  - parents: [13, 4]
+    children: [20]
+  - parents: [20, 14]
+    children: [33]
+  - parents: [14, 1]
+    children: [27]
+  - parents: [4, 3]
+    children: [22]
+  - parents: [13, 11]
+    children: [16]
+
+
+people:
+  25:
+    name: Ann Graham
+    fullname: ID is 25
+    class: [F]
+  18:
+    name: Alpha Virginia
+    fullname: ID is 18
+    class: [F]
+  37:
+    name: Alpha Martha
+    fullname: ID is 37
+    class: [F]
+  5:
+    name: Brittany Harper
+    fullname: ID is 5
+    class: [F]
+  12:
+    name: Brandon Campbell
+    fullname: ID is 12
+    class: [M]
+  9:
+    name: Beta Graham
+    fullname: ID is 9
+    class: [M]
+  20:
+    name: Alpha Douglas
+    fullname: ID is 20
+    class: [M]
+  14:
+    name: Alpha Amy
+    fullname: ID is 14
+    class: [F]
+  24:
+    name: Alpha Craig
+    fullname: ID is 24
+    class: [M]
+  4:
+    name: Lori Mills
+    fullname: ID is 4
+    class: [F]
+  13:
+    name: Louis Sutton
+    fullname: ID is 13
+    class: [M]
+  6:
+    name: Catherine Payne
+    fullname: ID is 6
+    class: [F]
+  11:
+    name: Julia Jones
+    fullname: ID is 11
+    class: [F]
+  2:
+    name: Nancy Sanders
+    fullname: ID is 2
+    class: [F]
+  7:
+    name: Lisa Omega
+    fullname: ID is 7
+    class: [F]
+  19:
+    name: Adam Graham
+    fullname: ID is 19
+    class: [M]
+  3:
+    name: Brandon Black
+    fullname: ID is 3
+    class: [M]
+  17:
+    name: Kenneth Harper
+    fullname: ID is 17
+    class: [M]
+  8:
+    name: Alan Omega
+    fullname: ID is 8
+    class: [M]
+  10:
+    name: Margaret Powell
+    fullname: ID is 10
+    class: [F]
+  21:
+    name: Christina Graham
+    fullname: ID is 21
+    class: [F]
+  22:
+    name: Brandon Black
+    fullname: ID is 22
+    class: [M]
+  29:
+    name: Austin Black
+    fullname: ID is 29
+    class: [M]
+  23:
+    name: Austin Mills
+    fullname: ID is 23
+    class: [M]
+  15:
+    name: Samuel Omega
+    fullname: ID is 15
+    class: [M]
+  16:
+    name: Nancy Jones
+    fullname: ID is 16
+    class: [F]
+  31:
+    name: Margaret Wood
+    fullname: ID is 31
+    class: [F]
+  28:
+    name: Dorothy Smith
+    fullname: ID is 28
+    class: [F]
+  27:
+    name: J. Amy Allen
+    fullname: ID is 27
+    class: [F]
+  36:
+    name: Brandon Bowman
+    fullname: ID is 36
+    class: [M]
+  34:
+    name: Alexander Klein
+    fullname: ID is 34
+    class: [M]
+  33:
+    name: Alpha Allen
+    fullname: ID is 33
+    class: [F]
+  26:
+    name: Arthur Douglas
+    fullname: ID is 26
+    class: [M]
+  30:
+    name: Justin Graham
+    fullname: ID is 30
+    class: [M]
+  35:
+    name: Heather Graham
+    fullname: ID is 35
+    class: [F]
+  32:
+    name: Emil Smith
+    fullname: ID is 32
+    class: [M]
+  1:
+    name: Beta Smith
+    fullname: ID is 1
+    class: [M]
+  40:
+    name: Roy Graham
+    fullname: ID is 40
+    class: [M]
+  39:
+    name: Femboy Craig
+    fullname: ID is 39
+    class: [F]
+  -1:
+    name: Adam
+    fullname: None
+    class: [M]
+  -2:
+    name: Eve
+    fullname: None
+    class: [F]
+
+
+styles:
+  M:
+    shape: rectangle
+    color: blue
+  F:
+    shape: ellipse
+    color: red

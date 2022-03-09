@@ -1,0 +1,130 @@
+families:
+  - house: Targaryen
+    children: [Danaerys, Rhaegar, Viserys]
+
+  - house: Greyjoy
+    parents: [Balon, Alannys]
+    children: [Theon, Yara, Rodrik, Maron]
+
+  - house: Stark
+    parents: [Rickard, Lyarra]
+    children: [Ned, Lyanna, Brandon, Benjen]
+    families:
+      - parents: [Ned, Catelyn]
+        children: [Robb, Sansa, Arya, Bran, Rickon]
+        children2: [Jon, Theon]
+        families:
+          - parents: [Robb, Talisa]
+      - parents: [Lyanna, Rhaegar]
+        children: [Jon]
+
+  - house: Tyrell
+    children: [Margaery, Loras]
+
+  - house: Barratheon
+    children: [Robert, Stannis, Renly]
+    families:
+      - parents2: [Renly, Margaery]
+      - parents: [Stannis, Selyse]
+        children: [Shireen]
+      - parents2: [Robert]
+        children: [Gendry]
+
+  - house: Lannister
+    parents: [Tywin, Joanna]
+    children: [Cersei, Jaime, Tyrion]
+    families:
+      - parents: [Cersei, Jaime]
+        parents2: [Robert]
+        children: [Joffrey, Myrcella, Tommen]
+      - parents2: [Sansa, Tyrion]
+      - parents2: [Tyrion, Shae]
+
+  - house: Tully
+    parents: [Hoster, Minisa]
+    children: [Catelyn, Lysa, Edmure, Robin Arryn, Brynden]
+
+  # Affinities
+  - parents2: [Margaery, Joffrey]
+  - parents2: [Margaery, Tommen]
+  - parents2: [Danaerys, Drogo]
+  - parents2: [Lysa, Littlefinger]
+  - parents2: [Sansa, Joffrey]
+  - parents2: [Loras, Renly]
+  - parents2: [Danaerys, Daario]
+  - parents2: [Stannis, Melisandre]
+
+people:
+  Jon:
+    fullname: Jon Snow
+  Robert:
+    fullname: Robert Baratheon
+  Cersei:
+    fullname: Cersei Lannister
+  Jaime:
+    fullname: Jaime "Kingslayer" Lannister
+  Tyrion:
+    fullname: Tyrion "The Imp" Lannister
+  Rhaegar:
+    fullname: Rhaegar Targaryen
+    class: [minor]
+  Danaerys:
+    fullname: Danaerys Targaryen
+  Viserys:
+    fullname: Viserys Targaryen
+  Hoster:
+    fullname: Hoster Tully
+    class: [minor]
+  Minisa:
+    fullname: Minisa Whent
+    class: [minor]
+  Brandon:
+    class: [minor]
+  Rickon:
+    class: [minor]
+  Joanna:
+    class: [minor]
+  Lyanna:
+    class: [minor]
+  Rickard:
+    class: [minor]
+  Lyarra:
+    class: [minor]
+  Littlefinger:
+    fullname: Petyr "Littlefinger" Baelish
+    class: [unaffiliated]
+  Ned:
+    fullname: Eddard Stark
+  Selyse:
+    fullname: Selyse Florent
+    class: [minor]
+  Daario:
+    fullname: Daario Naharis
+    class: [unaffiliated]
+  Drogo:
+    fullname: Khal Drogo
+    class: [unaffiliated]
+  Balon:
+    class: [minor]
+  Alannys:
+    class: [minor]
+  Rodrik:
+    class: [minor]
+  Maron:
+    class: [minor]
+  Edmure:
+    class: [minor]
+  Brynden:
+    class: [minor]
+  Melisandre:
+    class: [unaffiliated]
+
+styles:
+  minor:
+    style: "filled"
+    fillcolor: "#f4f4f4"
+    penwidth: 0
+  unaffiliated:
+    style: "filled"
+    fillcolor: "#f4f4e0"
+    penwidth: 0
